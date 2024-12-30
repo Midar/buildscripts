@@ -430,7 +430,7 @@ endif()
 # Common gcc configure options
 set(common_gcc_configure_args
     --with-python-dir=share/gcc-${target_arch}
-    --enable-languages=c,c++
+    --enable-languages=c,c++,objc,obj-c++
     --disable-decimal-float
     --disable-libffi
     --disable-libmudflap
